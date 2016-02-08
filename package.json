@@ -1,0 +1,37 @@
+{
+  "name": "TextMeme-Twitter-Bot",
+  "version": "1.0.0",
+  "description": "TextMeme - A Twitter Bot",
+  "keywords": [
+    "TextMeme",
+    "Node.js",
+    "twitter",
+    "bot"
+  ],
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beatfreaker/text-meme-twitter-bot"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "fs": "0.0.2",
+    "path": "^0.12.7",
+    "path-exists": "^2.1.0",
+    "randomcolor": "^0.4.2",
+    "text-meme": "^2.2.0",
+    "twit": "^2.1.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
